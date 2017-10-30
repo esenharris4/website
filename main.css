@@ -1,15 +1,34 @@
+.title{
+   padding-top:5%;
+}
 .nav{
     position: fixed;
     float: left;
     width: 150px;
     padding-right: 30px; 
 }
+
+
 .container1{
-    padding: 10%;
+    padding-right:10%;
+    padding-bottom:10%;
     width: 25%;
-    height:100%;
+    height:90%;
     float: left;
 }
+ .container1 .nav p#navBio span#a{
+    display:none;
+}
+ .container1:hover .nav p#navBio span#a{
+    display:inline;
+}
+ .container1:hover .nav p#navBio span#b{
+    display:none;
+}
+ .container1 .nav p#navBio span#b{
+    display:inline;
+}
+
 .column {
     width: 17%;
     padding-left: 5%;
@@ -23,6 +42,20 @@
     position: fixed;
     float: right;
     width: 75%;
+    padding-left:5%;
+}
+
+.container2 .column span#a{
+    display: none;
+}
+.container2:hover .column span#a{
+    display: inline;
+}
+.container2 .column span#b{
+    display: inline;
+}
+.container2:hover .column span#b{
+    display: none;
 }
 video{
     width: 100%;
@@ -36,6 +69,19 @@ video{
 h1{
     color: white;
     font-family: Lutb;
+    text-align: center;
+}
+.title h1 span#a{
+    display: none;
+}
+.title:hover h1 span#a{
+    display: inline;
+}
+.title h1 span#b{
+    display: inline;
+}
+.title:hover h1 span#b{
+    display: none;
 }
 h6{
     color: white;
@@ -47,6 +93,7 @@ p{
     font-family: Lutr;
     font-size: 10px;
 }
+
 
 @font-face {
     font-family: Lutb;
@@ -70,8 +117,9 @@ body, html {
     height:100%;
     background-color: black;
     overflow: hidden;
-    padding:5%;
+    padding: 5%
     
 
 }
 ::-webkit-scrollbar { width: 0 !important }
+
