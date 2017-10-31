@@ -1,5 +1,9 @@
 .title{
-   padding-top:5%;
+   padding-bottom:5%;
+
+}
+.title h1{
+    
 }
 .nav{
     position: fixed;
@@ -88,6 +92,7 @@ h6{
     font-family: Lutb;
 
 }
+
 p{
     color:white;
     font-family: Lutr;
