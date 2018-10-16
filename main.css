@@ -3,13 +3,13 @@
 
 }
 .title h1{
-    
+
 }
 .nav{
     position: fixed;
     float: left;
     width: 150px;
-    padding-right: 30px; 
+    padding-right: 30px;
 }
 
 
@@ -19,6 +19,7 @@
     width: 25%;
     height:90%;
     float: left;
+    display: flex-direction:column;
 }
  .container1 .nav p#navBio span#a{
     display:none;
@@ -47,6 +48,8 @@
     float: right;
     width: 75%;
     padding-left:5%;
+    display: flex-direction:column;
+    height: 500px;
 }
 
 .container2 .column span#a{
@@ -123,8 +126,7 @@ body, html {
     background-color: black;
     overflow: hidden;
     padding: 5%
-    
+
 
 }
 ::-webkit-scrollbar { width: 0 !important }
-
